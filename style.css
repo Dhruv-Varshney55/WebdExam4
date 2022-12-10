@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left div {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 800;
+    position: relative;
+    left: 12px;
+}
+
+.mid {
+    margin-top: 12px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+.left {
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.right {
+    position: relative;
+    right: 120px;
+    top: 20px;
+}
+
+.right i {
+    padding-left: 20px;
+    border: 2px solid rgb(196, 192, 192);
+    background-color: rgb(196, 192, 192);
+    padding: 10px;
+    position: relative;
+    bottom: 13px;
+}
+
+.right i:hover {
+    background-color: orange;
+}
+
+.right div {
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+    font-size: 20px;
+}
+
+.right img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.middle {
+    display: flex;
+    position: relative;
+    top: 30px;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.item1 div {
+    display: inline-block;
+    color: blue;
+    padding-top: 5px;
+}
+
+.item2 div {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.item3 div {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.item4 div {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.item5 {
+    padding: 6px;
+    background-color: blue;
+}
+
+.item5 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+
+.alert {
+    position: relative;
+    top: 50px;
+    width: 18%;
+}
+
+.alert button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.sidebar {
+    position: relative;
+    top: 70px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.sidebar header {
+    position: relative;
+    left: 44px;
+    font-weight: 800;
+}
+
+.sidebar div {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    background-color: blue;
+    color: white;
+}
+
+
+.end {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 300px;
+    bottom: 1125px;
+}
+
+.card-section {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    height: 50px;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 70px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.side {
+    width: 20vw;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.end {
+    border: 2px solid red;
+    width: 76vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.end figure {
+    width: 330px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition: 250ms;
+}
+
+.end figure:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.button1 {
+    border: 1px #ccc;
+    border-radius: 2px;
+    color: darkviolet;
+    background-color: lightcyan;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    border: 1px #ccc;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 8px 40px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.button3 {
+    border: 1px #ccc;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgray;
+    padding: 8px 40px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
